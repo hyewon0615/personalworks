@@ -1,0 +1,59 @@
+#modalOpen {
+    all: unset
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+.modalContent {
+    background-color: antiquewhite;
+    position: relative;
+    
+    width:80%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hidden {
+    display: none;
+}
+.modal-poster-path{
+    width: 150px;
+    
+
+}
+.leftSideModal{
+    margin:10px 30px 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modalClose{
+    margin:10px 10px auto 10px;
+    background-color: transparent;
+    border-color: transparent;
+    
+}
